@@ -1,0 +1,29 @@
+﻿@model departmentstaaf
+@{
+    ViewData["Title"] = "Department staaf Page";
+}
+@* @model List<Employee> *@
+
+<p>This is my CRUD operation page</p>
+
+<div class="container bg-dark bg-opacity-25 p-4 rounded">
+    <form asp-action="Create" asp-controller="Department" method="post" class="form">
+        <div class="form-group">
+            <label for="Name">Name</label>
+            <input type="text" asp-for="Id" class="form-control" required />
+        </div>
+         <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="email" asp-for="DepartmentName" class="form-control" required />
+       @*  </div>
+        <div class="form-group">
+            <label for="ContactNumber">Contact</label>
+            <input type="text" asp-for="ContactNumber" maxlength="10    " class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label for="Address">Address</label>
+            <input type="text" asp-for="Address" class="form-control" required /> *@ 
+        </div>
+        <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+</div>

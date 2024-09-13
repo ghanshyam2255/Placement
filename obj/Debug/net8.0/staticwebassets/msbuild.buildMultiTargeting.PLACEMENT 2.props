@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PLACEMENT 2.props" />
+</Project>

@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Employee Page";
+}
+@model List<Employee>
+@* <p>This is my crud operation page</p> *@
+
+@* <button type="button">Click Me!</button> *@
+
+<a asp-area="" asp-controller="Employee" asp-action="CreateEmployee">Add</a>
+
+<table class="table"
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Contact</th>
+        <th>Address</th>
+        <th>Action</th>
+
+</tr>
+
+    @foreach(var data in Model)
+    {
+        <tr>
+                <td>@data.Id</td>
+                <td>@data.Name</td>
+                <td>@data.Email</td>
+                <td>@data.ContactNumber</td>
+                <td>@data.Address</td>
+                <td>
+                      <a href="@Url.Action("Update","Employee", new {ID = data.Id})">Edit</a>
+                      <a href="@Url.Action("Delete","Employee", new {ID = data.Id})" class="mb-lg-3">Delete</a>
+                </td>
+        </tr>
+        
+    }
+</table>

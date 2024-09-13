@@ -1,0 +1,61 @@
+﻿@model Employee
+
+@{
+    ViewData["Title"] = "Update Employee Page";
+}
+@* @model List<Employee> *@
+
+<p>Update Employee</p>
+
+<!-- Employee Add Form -->
+<div class="container bg-dark bg-opacity-25 p-4 rounded">
+    <form asp-action="Update" asp-controller="Employee" method="post" class="form">
+        <div class="form-group">
+            <label for="Name">Name</label>
+            <input type="text" asp-for="Name" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="email" asp-for="Email" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="ContactNumber">Contact</label>
+            <input type="text" asp-for="ContactNumber" maxlength="10    " class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="Address">Address</label>
+            <input type="text" asp-for="Address" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary">Update</button>
+    </form>
+</div>
+@* <!-- Employee Table -->
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Contact</th>
+            <th>Address</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var data in Model)
+        {
+            <tr>
+                <td>@data.Id</td>
+                <td>@data.Name</td>
+                <td>@data.Email</td>
+                <td>@data.ContactNumber</td>
+                <td>@data.Address</td>
+                <td>
+                    <a href="@Url.Action("AdminEdit", "Admin", new { ID = data.Id })">Edit</a>
+                    <a href="@Url.Action("Delete", "Admin", new { ID = data.Id })" class="mb-lg-3">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+ *@

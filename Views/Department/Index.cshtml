@@ -1,0 +1,37 @@
+﻿@model List<departmentstaaf>
+
+
+
+<p>This IS Department Page</p>
+
+<a asp-area="" asp-controller="Department" asp-action="Create">Add</a>
+
+
+<table class="table"
+    <tr>
+        <th>Id</th>
+        <th>DepartmentName</th>
+       @*  <th>IsActive</th>
+        <th>CreateDate</th>
+        <th>CreatedBy</th>
+        <th>ModifiedAt</th>
+        <th>Modifiedby</th> *@
+
+</tr>
+
+    @foreach (var data in Model)
+    {
+            <tr>
+                    <td>@data.Id</td>
+                     <td>@data.DepartmentName</td>
+                    @* <td>@data.Email</td>
+                    <td>@data.ContactNumber</td>
+                    <td>@data.Address</td> *@
+                    <td>
+                          <a href="@Url.Action("Update","Department", new {ID = data.Id})">Edit</a>
+                          <a href="@Url.Action("Delete","Department", new {ID = data.Id})" class="mb-lg-3">Delete</a>
+                    </td>
+            </tr>
+
+    }
+</table>
