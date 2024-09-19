@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PLACEMENT_2.Models
 {
-    public class departmentstaaf
+    public class department
     {
         [Key]
         public int Id { get; set; }

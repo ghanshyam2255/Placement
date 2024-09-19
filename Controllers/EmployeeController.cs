@@ -5,14 +5,14 @@ namespace PLACEMENT_2.Controllers
 {
     public class EmployeeController : Controller
     {
-        private readonly EmployeeDBContext dbContext;   
-        public EmployeeController(EmployeeDBContext employeeDBContext)
+        private readonly DBContext dbContext;
+        public EmployeeController(DBContext employeeDBContext)
         {
             dbContext = employeeDBContext;
         }
         public IActionResult Index()
         {
-            var employee= dbContext.Employee.ToList();
+            var employee = dbContext.Employee.ToList();
             return View(employee);
         }
 
@@ -22,13 +22,20 @@ namespace PLACEMENT_2.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(Employee Model)
+        public IActionResult CreateEmployee(Employee Model)
         {
-            dbContext.Employee.Add(Model);
-            dbContext.SaveChanges();
-            return RedirectToAction("Index");
-           // return View();
+            //modal validate
+            if (ModelState.IsValid)
+            {
+                dbContext.Employee.Add(Model);
+                dbContext.SaveChanges();
+                return RedirectToAction("Index");
             }
+            else
+            {
+                return View(Model);
+            }
+        }
         public IActionResult Update(int id)
         {
             return View(dbContext.Employee.Where(a => a.Id == id).FirstOrDefault());

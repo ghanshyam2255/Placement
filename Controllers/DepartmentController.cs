@@ -6,15 +6,16 @@ namespace PLACEMENT_2.Controllers
 {
     public class DepartmentController : Controller
     {
-        private readonly DepartmentDBContext _departmentDBContext;
-        public DepartmentController (DepartmentDBContext departmentDBContext)
+        private readonly DBContext _departmentDBContext;
+        public DepartmentController (DBContext departmentDBContext)
+            //upar vala constroctor h mera
         {
             _departmentDBContext= departmentDBContext;
         }
         public IActionResult Index()
         {
             var data = _departmentDBContext.Department.ToList();
-            return View(data);
+            return View(data);  
         }
 
         //public IActionResult Update()
@@ -22,7 +23,7 @@ namespace PLACEMENT_2.Controllers
         //    return View();
         //}
 
-        public IActionResult Departmentstaaf()
+        public IActionResult Department()
         {
             return View();
         }
@@ -33,25 +34,52 @@ namespace PLACEMENT_2.Controllers
         }
         //Create
         [HttpPost]
-        public IActionResult Create(departmentstaaf Model)
+        public IActionResult Create(department Model)
         {
             _departmentDBContext.Department.Add(Model);
             _departmentDBContext.SaveChanges();
-            return RedirectToAction("Index");
+           // return RedirectToAction("Index");
             // return View();
-        }
+
+          
+                //modal validate
+                if (ModelState.IsValid)
+                {
+                _departmentDBContext.Department.Add(Model);
+                _departmentDBContext.SaveChanges();
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    return View(Model);
+                }
+
+
+
+            }
         public IActionResult Update(int id)
         {
             return View(_departmentDBContext.Department.Where(a => a.Id == id).FirstOrDefault());
         }
+
         [HttpPost]
-        [ActionName("Update")]
-        public IActionResult Update_Post(DepartmentController emp)
+        //public IActionResult Update_Post(department emp)
+        //{
+        //    _departmentDBContext.Update(emp);
+        //    _departmentDBContext.SaveChanges();
+        //    return RedirectToAction("Index");
+        //}
+
+
+        public IActionResult Update(department updatemodel)
         {
-            _departmentDBContext.Update(emp);
+            var old_student_entries = _departmentDBContext.Department.FirstOrDefault(e => e.Id == updatemodel.Id);
+            _departmentDBContext.Entry(old_student_entries).CurrentValues.SetValues(updatemodel);
             _departmentDBContext.SaveChanges();
             return RedirectToAction("Index");
         }
+
+
         //[HttpPost]
         [ActionName("Delete")]
         public IActionResult Delete(int id)

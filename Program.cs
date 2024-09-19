@@ -9,10 +9,10 @@ builder.Services.AddControllersWithViews();
 var provider = builder.Services.BuildServiceProvider();
 var config = provider.GetRequiredService<IConfiguration>();
 
-builder.Services.AddDbContext<EmployeeDBContext>(options =>
+builder.Services.AddDbContext<DBContext>(options =>
     options.UseSqlServer(config.GetConnectionString("DBconnect")));
 
-builder.Services.AddDbContext<DepartmentDBContext>(options =>
+builder.Services.AddDbContext<DBContext>(options =>
     options.UseSqlServer(config.GetConnectionString("DBconnect")));
 
 

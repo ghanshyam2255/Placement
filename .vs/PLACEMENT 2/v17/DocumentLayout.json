@@ -3,44 +3,16 @@
   "WorkspaceRootPath": "D:\\APNE PROGRAMS\\PLACEMENT 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|d:\\apne programs\\placement 2\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|d:\\apne programs\\placement 2\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|solutionrelative:views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|d:\\apne programs\\placement 2\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|solutionrelative:views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|d:\\apne programs\\placement 2\\views\\department\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|solutionrelative:views\\department\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|d:\\apne programs\\placement 2\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|solutionrelative:controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|d:\\apne programs\\placement 2\\context\\departmentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|solutionrelative:context\\departmentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|d:\\apne programs\\placement 2\\models\\departmentstaaf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|solutionrelative:models\\departmentstaaf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|d:\\apne programs\\placement 2\\views\\department\\departmentemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|solutionrelative:views\\department\\departmentemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|d:\\apne programs\\placement 2\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|d:\\apne programs\\placement 2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|d:\\apne programs\\placement 2\\views\\employee\\createemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|solutionrelative:views\\employee\\createemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|d:\\apne programs\\placement 2\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|solutionrelative:views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|d:\\apne programs\\placement 2\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,184 +21,91 @@
     {
       "AbsoluteMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|d:\\apne programs\\placement 2\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|solutionrelative:views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|d:\\apne programs\\placement 2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2226054A-A085-48D8-ABD2-D5D106F82141}|PLACEMENT 2.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Views\\Department\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Department\\Create.cshtml",
-              "ToolTip": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Views\\Department\\Create.cshtml",
-              "RelativeToolTip": "Views\\Department\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-12T14:26:46.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Controllers\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DepartmentController.cs",
-              "ToolTip": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Controllers\\DepartmentController.cs",
-              "RelativeToolTip": "Controllers\\DepartmentController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAUwB4AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T12:02:54.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Views\\Department\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Department\\Index.cshtml",
-              "ToolTip": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Views\\Department\\Index.cshtml",
-              "RelativeToolTip": "Views\\Department\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-12T11:53:21.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Views\\Department\\Update.cshtml",
-              "RelativeDocumentMoniker": "Views\\Department\\Update.cshtml",
-              "ToolTip": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Views\\Department\\Update.cshtml",
-              "RelativeToolTip": "Views\\Department\\Update.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-12T14:00:07.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DepartmentDBContext.cs",
-              "DocumentMoniker": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Context\\DepartmentDBContext.cs",
-              "RelativeDocumentMoniker": "Context\\DepartmentDBContext.cs",
-              "ToolTip": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Context\\DepartmentDBContext.cs",
-              "RelativeToolTip": "Context\\DepartmentDBContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T11:43:35.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "Models\\Employee.cs",
-              "ToolTip": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Models\\Employee.cs",
-              "RelativeToolTip": "Models\\Employee.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T11:26:02.071Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "departmentstaaf.cs",
-              "DocumentMoniker": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Models\\departmentstaaf.cs",
-              "RelativeDocumentMoniker": "Models\\departmentstaaf.cs",
-              "ToolTip": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Models\\departmentstaaf.cs",
-              "RelativeToolTip": "Models\\departmentstaaf.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T14:09:51.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DepartmentEmployee.cshtml",
-              "DocumentMoniker": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Views\\Department\\DepartmentEmployee.cshtml",
-              "RelativeDocumentMoniker": "Views\\Department\\DepartmentEmployee.cshtml",
-              "ToolTip": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Views\\Department\\DepartmentEmployee.cshtml",
-              "RelativeToolTip": "Views\\Department\\DepartmentEmployee.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-12T11:52:04.769Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CreateEmployee.cshtml",
-              "DocumentMoniker": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Views\\Employee\\CreateEmployee.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employee\\CreateEmployee.cshtml",
-              "ToolTip": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Views\\Employee\\CreateEmployee.cshtml",
-              "RelativeToolTip": "Views\\Employee\\CreateEmployee.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBgAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-12T11:52:03.317Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T11:26:04.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
-              "ToolTip": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "Controllers\\EmployeeController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA6wBkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T12:00:24.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Views\\Employee\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employee\\Index.cshtml",
-              "ToolTip": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Views\\Employee\\Index.cshtml",
-              "RelativeToolTip": "Views\\Employee\\Index.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-12T11:53:24.319Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADYAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-12T14:04:52.664Z"
+              "WhenOpened": "2024-09-18T19:48:11.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateEmployee.cshtml",
+              "DocumentMoniker": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Views\\Employee\\CreateEmployee.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\CreateEmployee.cshtml",
+              "ToolTip": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Views\\Employee\\CreateEmployee.cshtml",
+              "RelativeToolTip": "Views\\Employee\\CreateEmployee.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T19:38:30.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Views\\Department\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\Create.cshtml",
+              "ToolTip": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Views\\Department\\Create.cshtml",
+              "RelativeToolTip": "Views\\Department\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T19:38:22.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Index.cshtml",
+              "ToolTip": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Index.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T12:16:00.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\APNE PROGRAMS\\PLACEMENT 2\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T10:46:03.418Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

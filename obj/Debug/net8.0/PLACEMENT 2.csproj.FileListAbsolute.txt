@@ -134,3 +134,4 @@ D:\APNE PROGRAMS\PLACEMENT 2\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Sec
 D:\APNE PROGRAMS\PLACEMENT 2\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\APNE PROGRAMS\PLACEMENT 2\obj\Debug\net8.0\PLACEMENT 2.csproj.AssemblyReference.cache
 D:\APNE PROGRAMS\PLACEMENT 2\obj\Debug\net8.0\PLACEMEN.1175335D.Up2Date
+D:\APNE PROGRAMS\PLACEMENT 2\obj\Debug\net8.0\PLACEMENT 2.sourcelink.json

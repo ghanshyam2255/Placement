@@ -1,2 +1,42 @@
 ﻿
 <p>HeyyyyBroo</p>
+
+
+
+
+
+@model department
+
+@{
+    // ViewData["Title"] = "Employee Page";
+}
+@* @model List<Employee> *@
+
+@* <p>This is my CRUD operation page</p> *@
+
+<!-- Employee Add Form -->
+<div class="container bg-dark bg-opacity-25 p-4 rounded">
+    <form asp-action="Create" asp-controller="Department" method="post" class="form">
+        <div class="form-group">
+            <label for="DepartmentName">DepartmentName</label>
+            <input type="text" asp-for="DepartmentName" class="form-control"  />
+            <span asp-validation-for="DepartmentName" class="text-danger"></span>
+
+  @*           <span asp-validation-for="DepartmentName" class="text-danger"></span> *@
+
+        </div>
+       @*  <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="email" asp-for="Email" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label for="ContactNumber">Contact</label>
+            <input type="text" asp-for="ContactNumber" maxlength="10    " class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label for="Address">Address</label>
+            <input type="text" asp-for="Address" class="form-control" required />
+        </div> *@
+        <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+</div>

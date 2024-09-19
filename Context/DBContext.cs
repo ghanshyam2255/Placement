@@ -3,12 +3,13 @@
 namespace PLACEMENT_2.Models
 
 {
-    public class EmployeeDBContext : DbContext
+    public class DBContext : DbContext
     {
-        public EmployeeDBContext(DbContextOptions <EmployeeDBContext> options) : base(options)
+        public DBContext(DbContextOptions <DBContext> options) : base(options)
         {            
         }
         public DbSet<Employee> Employee { get; set;    } 
+        public DbSet<department> Department { get; set; }
     }
     
 }
